@@ -1,0 +1,42 @@
+#inputArea
+	{
+		background-color: #D6E5F4;
+		border: 1px solid #D6E5F4;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		font-family: Arial,Sans-Serif;
+		font-size: 13px;
+		padding: 10px;
+		width: 310px;
+	}
+	#inputArea input, #inputArea textarea
+	{
+	    font-family: Arial, Sans-Serif;
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	    display: block;
+	    padding: 4px;
+	    width: 300px;
+	}
+
+   #inputArea .activeField
+        {
+            background-image: none;
+            background-color: #ffffff;
+            border: solid 1px #33677F;
+        }
+    #inputArea .idle
+        {
+	    border: solid 1px #85b1de !important;
+	    background-image: url( 'blue_bg.png' ) !important;
+	    background-repeat: repeat-x !important;
+	    background-position: top !important;
+        }
+		
+	#inputArea span#snapymsg
+	{
+		color:#C33;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+	}
